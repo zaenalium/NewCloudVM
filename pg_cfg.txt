@@ -1,0 +1,21 @@
+nano /etc/postgresql/14/main/pg_hba.conf #ganti 0.0.0.0
+psql -U postgres -c 'SHOW config_file'
+nano  /etc/postgresql/14/main/postgresql.conf #ganti 'localhost' jadi *
+
+sudo service postgresql restart
+
+netstat -tapn
+
+
+service postgresql status
+sudo su postgres
+psql
+ALTER USER postgres WITH PASSWORD 'T0raja$am';
+CREATE USER zaenal WITH PASSWORD 'T0raja$am';
+ALTER USER zaenal WITH SUPERUSER;
+
+CREATE DATABASE baitulbayanat;
+
+CREATE DATABASE imahdata;
+
+CREATE DATABASE hh_dwh;

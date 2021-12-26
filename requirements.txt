@@ -1,0 +1,25 @@
+aioredis
+fastapi
+uvicorn[standard]
+whoosh
+pythainlp
+fastapi_cache2
+sqlalchemy
+typing
+pandas
+numpy
+rollbar
+python-multipart
+langdetect
+httpx
+pillow
+asyncpg
+databases
+fastapi_utils
+jupyter
+jupyterlab
+# json
+# os
+# ast
+# shutil
+# re

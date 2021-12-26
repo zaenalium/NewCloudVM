@@ -1,0 +1,15 @@
+install.packages(c("tidyverse",
+,"RMySQL"
+,"stringr"
+,"gridExtra"
+,"DBI"
+,"odbc"
+,"flexdashboard"
+,"glue"
+,"lubridate"
+,"Rcpp"
+,"future"
+,"memoise"
+,"rlang"
+,"pool"
+,"rollbar"))
