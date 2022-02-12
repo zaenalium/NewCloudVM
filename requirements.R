@@ -1,5 +1,5 @@
 install.packages(c("tidyverse",
-,"RMySQL"
+"RMySQL"
 ,"stringr"
 ,"gridExtra"
 ,"DBI"
