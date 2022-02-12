@@ -17,4 +17,6 @@ wget https://download2.rstudio.org/server/bionic/amd64/rstudio-server-2021.09.1-
 
 gdebi rstudio-server-2021.09.1-372-amd64.deb
 
+sudo apt-get install libssl-dev libxml2-dev unixodbc-dev libcurl4-openssl-dev
+
 Rscript requirements.R
